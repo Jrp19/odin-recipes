@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(black, white);
+    background-color:bisque;
+}
+body {
+    background-color: lightblue;
+    text-align: center;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+    background-image: url("../img/kitchen.webp");
+  }
