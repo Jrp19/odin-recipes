@@ -14,8 +14,7 @@ body {
     color: #ae8f59;
     margin:auto;
     margin-bottom: 10px;
-    background-image: 
-    url(img/odin.jpg);
+    background-image: url(./img/odin.jpg);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left 40%;
@@ -23,7 +22,6 @@ body {
     width: 400px;
     height: 180px;
     text-align: left;
-    text-align: ;
     line-height: px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -41,13 +39,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
- 
-
-  img {
-    
-  }
-
-  div {
+   div {
     width: 600px;
     height: auto;
     padding: 15px;
