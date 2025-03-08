@@ -18,8 +18,8 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left 40%;
-    padding: 10px;
-    width: 400px;
+    padding: 15px;
+    width: 500px;
     height: 180px;
     text-align: left;
     line-height: px;
@@ -34,25 +34,31 @@ body {
   .links {
     font-size: 24px;
     text-align: center;
-    color:white;
+    color:#ae8f59;
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
+  img {
+    border: 5px solid #595041a4;
+    padding: 15px;
+    width: 500px;
+    height:auto;
+  }
    div {
-    width: 600px;
+    width: 500px;
     height: auto;
     padding: 15px;
     border: 5px solid #595041a4;
     margin: auto;
     margin-top: 10px;
-    text-align: left;
+    text-align: ltef;
     color: #595041fb;
   }
 
   div.linkbox {
     text-align: center;
-    width: 390px;
+    width: 500px;
     height: auto;
   }
     
