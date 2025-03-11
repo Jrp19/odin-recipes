@@ -1,64 +1,103 @@
-* {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-
+* {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 10px red;
+}
 
 body {
-    background-color: #c8bba4a4;
-    text-align: center;
-    
-}
+    background-color: #141323;
+    }
   
   h1 {
     color: #ae8f59;
-    margin:auto;
-    margin-bottom: 10px;
+    margin:10px auto;
     background-image: url(./img/odin.jpg);
-    background-size: auto;
+    background-size: 35%;
+    background-color:#141323;
     background-repeat: no-repeat;
-    background-position: left 40%;
-    padding: 15px;
-    width: 500px;
+    background-position: right 42%;
+    background-position-x: 23em;
+    padding: 100px;
+    
     height: 180px;
-    text-align: left;
-    line-height: px;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-    border: 5px solid #595041a4;
-    
-    
+    border: 2px dotted #595041a4;
+    border-left: none;
+    border-right: none;
+    }
 
+  ul {
+    list-style-type: none;
   }
 
+  
+  img {
+ 
+    padding: 15px ;
+    margin: 40px auto;
+    width: 500px;
+    height: auto;
+    display: block;
+    border-radius: 25px;
+  }
+  div {
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    margin: 10px auto;
+    margin-top: 10px;
+    text-align: left;
+    color: #ae8f59;
+  }
+  
   .links {
+   
+    margin: 0 auto;
+    padding: 20px;
     font-size: 24px;
     text-align: center;
     color:#ae8f59;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+    text-decoration: none; 
+    border-left:none;
+    border-right:none;
+    background-color: #141323;
+    border: #ae8f59 double 5px;
+  
+    display: block;
+    }
 
-  img {
-    border: 5px solid #595041a4;
-    padding: 15px;
-    width: 500px;
-    height:auto;
-  }
-   div {
-    width: 500px;
-    height: auto;
-    padding: 15px;
-    border: 5px solid #595041a4;
-    margin: auto;
-    margin-top: 10px;
-    text-align: left;
-    color: #595041fb;
-  }
+  
+ol {
+  width: 500px;
+  padding: 0 15px;
+}
 
-  div.linkbox {
+  div h2{
     text-align: center;
-    width: 500px;
-    height: auto;
+    font-size: 24px;
+    text-decoration: solid underline;
+    margin: 20px;
   }
-    
+
+  .linkbox .links{
+    text-align: center;
+    width: 50%;
+    border: #ae8f59 double 5px;
+    margin: 30px auto;
+  }
+
+  .content {
+    border: #ae8f59 double 5px;
+  }
+
+  p .content{
+    padding: 40px;
+  }
